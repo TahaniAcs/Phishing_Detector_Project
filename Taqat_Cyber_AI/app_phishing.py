@@ -104,7 +104,7 @@ def main():
 
     with header_col3:
         # Taqat Logo on the far right
-        st.image("logo_v2.jpeg", width=180) 
+       st.image(str(BASE_DIR / "logo_v2.jpeg"), width=180)
 
     # --- Two-Column Layout for Main Content ---
     col_input, col_analysis = st.columns([1, 2])
@@ -120,7 +120,7 @@ def main():
         st.subheader("AI-Powered URL Analysis")
         
         # Image placement
-        st.image("hacker_background.png", use_container_width=True) 
+       st.image(str(BASE_DIR / "hacker_background.png"), use_container_width=True)
         st.markdown("<p style='text-align: center; color: #888888; font-size: 14px;'>Upload image to this folder and use its name.</p>", unsafe_allow_html=True)
 
 
@@ -197,6 +197,7 @@ if __name__ == '__main__':
     
 
     main()
+
 
 
 
