@@ -120,7 +120,7 @@ def main():
         st.subheader("AI-Powered URL Analysis")
         
         # Image placement
-        st.image(str(BASE_DIR / "hacker_background.png") , use_container_width=True)
+        st.image(str(BASE_DIR / "hacker_background.png"), use_container_width=True)
         st.markdown("<p style='text-align: center; color: #888888; font-size: 14px;'>Upload image to this folder and use its name.</p>", unsafe_allow_html=True)
 
 
@@ -197,6 +197,7 @@ if __name__ == '__main__':
     
 
     main()
+
 
 
 
