@@ -104,7 +104,7 @@ def main():
 
     with header_col3:
         # Taqat Logo on the far right
-        st.image("taqat_logo.png", width=180) 
+        st.image("taqat_logo_v2.png", width=180) 
 
     # --- Two-Column Layout for Main Content ---
     col_input, col_analysis = st.columns([1, 2])
@@ -195,4 +195,5 @@ if __name__ == '__main__':
     if 'analysis_started' not in st.session_state:
         st.session_state['analysis_started'] = False
     
+
     main()
