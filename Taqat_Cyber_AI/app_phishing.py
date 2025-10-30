@@ -1,3 +1,6 @@
+import os
+from pathlib import Path
+# تحديد المسار الأساسي للمشروع على الخادم
 import streamlit as st
 import re
 import pandas as pd
@@ -197,6 +200,7 @@ if __name__ == '__main__':
     
 
     main()
+
 
 
 
